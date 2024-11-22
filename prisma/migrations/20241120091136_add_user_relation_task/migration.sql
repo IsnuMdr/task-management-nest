@@ -1,0 +1,2 @@
+-- AddForeignKey
+ALTER TABLE "tasks" ADD CONSTRAINT "tasks_id_fkey" FOREIGN KEY ("id") REFERENCES "users"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
